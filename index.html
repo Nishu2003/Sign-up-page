@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="shortcut icon" href="favicon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="form-container">
+                <h3>CREATE AN ACCOUNT</h3>
+                <form action="" method="POST" class="form" name="my_form" onsubmit="return validateform()">
+                    <form action="" class="form">
+                        <input type="text" name="name" placeholder="User name">
+                        <input type="email" name="email" placeholder="Email address">
+                        <input type="password" name="password" placeholder="Password">
+                        <input type="password" name="cpassword" placeholder="Confirm Password">
+                        <button name="signup" type="submit">   START &nbsp; <span class="fa fa-arrow-right"></span></button>
+                </form>
+                <p>Already have an account? <a class="navigate-btn" href="#"><br><span>Login here<span></a></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
